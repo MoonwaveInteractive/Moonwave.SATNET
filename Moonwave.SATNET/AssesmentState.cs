@@ -13,7 +13,7 @@ namespace Moonwave.SATNET
         Valid,
 
         /// <summary>
-        /// The assesmentdata is not valid.
+        /// The assesment data is not valid.
         /// </summary>
         Invalid,
 
