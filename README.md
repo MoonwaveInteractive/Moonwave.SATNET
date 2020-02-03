@@ -22,7 +22,7 @@ AssesmentState assesmentState = Assesment.State;
 
 if (assesmentState == AssesmentState.Valid)
 {
-    // There is a valid WinSAT assesment available and valid.
+    // There is a valid WinSAT assesment available.
 }
 ```
 
@@ -31,7 +31,7 @@ if (assesmentState == AssesmentState.Valid)
 ```c#
 if (Assesment.State == AssesmentState.Valid)
 {
-    // There is a valid WinSAT assesment available and valid.
+    // There is a valid WinSAT assesment available.
 }
 ```
 
@@ -86,4 +86,4 @@ Windows Vista and later.
 
 ## Disclaimer:
 
-WinSAT should not be used for applications with the sole purpose of benchmarking. WinSAT determines hardware scores by running tests that reflect daily to intense operations calculated by time. It does not measure how good a computer is, it provides a bare measurement of what a computer can do efficiently and provides results based on what could happen. Other benchmarking software is far more complex and demanding. They provide results based on what is happening and the intensity varies amongst the several vendors.
+WinSAT should not be used for applications with the sole purpose of benchmarking. WinSAT determines hardware scores by running tests that reflect daily to intense operations calculated by time to completion.
